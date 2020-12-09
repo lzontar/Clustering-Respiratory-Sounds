@@ -1,0 +1,8 @@
+----- Executing Hierarchical clustering ----- 
+: 0.54 seconds 
+Calinski-Harabasz Index: 771.840
+Silhouette Coefficient: 0.28089
+Cluster sizes: 
+0:  1474 (52.55%)
+1:  1233 (43.96%)
+2:    98 ( 3.49%)

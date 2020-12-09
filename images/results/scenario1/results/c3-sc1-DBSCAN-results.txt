@@ -1,0 +1,7 @@
+----- Executing DBSCAN ----- 
+: 0.23 seconds 
+Calinski-Harabasz Index: 86.592
+Silhouette Coefficient: 0.81725
+Cluster sizes: 
+0:  2803 (99.93%)
+-1:     2 ( 0.07%)

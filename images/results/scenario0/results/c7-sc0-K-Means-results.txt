@@ -1,0 +1,12 @@
+----- Executing K-Means ----- 
+: 0.26 seconds 
+Calinski-Harabasz Index: 533.839
+Silhouette Coefficient: 0.19209
+Cluster sizes: 
+0:   772 (23.52%)
+2:   614 (18.70%)
+6:   555 (16.91%)
+5:   423 (12.88%)
+1:   383 (11.67%)
+4:   305 ( 9.29%)
+3:   231 ( 7.04%)

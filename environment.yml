@@ -1,0 +1,17 @@
+name: respiratory-sounds-clustering
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2020.10.14=0
+  - certifi=2020.6.20=py38haa95532_2
+  - openssl=1.1.1h=he774522_0
+  - pip=20.2.4=py38_0
+  - python=3.8.5=h5fd99cc_1
+  - setuptools=50.3.0=py38h9490d1a_1
+  - sqlite=3.33.0=h2a8f88b_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.16.27012=hf0eaf9b_3
+  - wheel=0.35.1=py_0
+  - wincertstore=0.2=py38_0
+  - zlib=1.2.11=h62dcd97_4
+prefix: C:\Users\Luka\anaconda3\envs\respiratory-sounds-clustering

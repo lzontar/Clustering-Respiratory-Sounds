@@ -1,0 +1,2 @@
+# Using clustering for pulmonary disease detection through respiratory sound analysis
+This repository contains the implementation of the related article that was written as part of Machine learning course at the Faculty of Computer and Information Science at the University of Ljubljana.
