@@ -1,13 +1,15 @@
 # Using clustering for pulmonary disease detection through respiratory sound analysis :loud_sound:
 This repository contains the implementation of the related article that was written as a part of Machine learning course at the Faculty of Computer and Information Science at the University of Ljubljana.
 
-The article will be accessible after January 3rd, 2021 to prevent plagiarism.
+Related article: [Using clustering for pulmonary disease detection through respiratory sound analysis](https://github.com/lzontar/Clustering-Respiratory-Sounds/blob/master/article/Using-clustering-for-pulmonary-disease-detection-through-respiratory-sound-analysis.pdf)
 
 # Repo structure :blue_book:
 This repository contains folders:
 * ```images/``` - contains all the visualizations and results of our work.
 * ```library/``` - contains Python helper files that are used in the main Python script ```main.py```.
-* ```results/``` - contains the ```data.json``` file, where we exported data from Kaggle in a more discrete way. It contains calculated features that are later used for clustering
+* ```results/``` - contains the ```data.json``` file, where we exported data from Kaggle in a more discrete way. It contains calculated features that are later used for clustering.
+* ```article/``` - contains the article: [Using clustering for pulmonary disease detection through respiratory sound analysis](https://github.com/lzontar/Clustering-Respiratory-Sounds/blob/master/article/Using-clustering-for-pulmonary-disease-detection-through-respiratory-sound-analysis.pdf).
+* ```main.py``` - the main Python script used to generate results. 
 
 # Reproducing results :snake:
 To reproduce my results, you will have to download the dataset I used from [Kaggle](https://www.kaggle.com/vbookshelf/respiratory-sound-database). Unzip it to folder ```data/``` in the root of the repository.
