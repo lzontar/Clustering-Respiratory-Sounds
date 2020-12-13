@@ -35,4 +35,6 @@ def pcaAnalysis(X, y, title, attrs, separatorCol, clusterLabels, filepath=None):
     if filepath is not None:
         plt.savefig(f'{filepath}.png')
         loadings.to_csv(f'{filepath}.csv', index=True)
+    plt.xticks(fontsize=26)
+    plt.yticks(fontsize=26)
     plt.show()

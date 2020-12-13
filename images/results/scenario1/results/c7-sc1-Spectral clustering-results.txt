@@ -1,12 +1,12 @@
 ----- Executing Spectral clustering ----- 
-: 1.98 seconds 
-Calinski-Harabasz Index: 1055.003
-Silhouette Coefficient: 0.29965
+: 1.90 seconds 
+Calinski-Harabasz Index: 995.897
+Silhouette Coefficient: 0.30443
 Cluster sizes: 
-0:  1721 (52.42%)
-6:   852 (25.95%)
-2:   281 ( 8.56%)
-4:   203 ( 6.18%)
-5:   201 ( 6.12%)
-3:    17 ( 0.52%)
-1:     8 ( 0.24%)
+0:  1734 (52.82%)
+6:   803 (24.46%)
+5:   265 ( 8.07%)
+4:   237 ( 7.22%)
+3:   226 ( 6.88%)
+2:    11 ( 0.34%)
+1:     7 ( 0.21%)

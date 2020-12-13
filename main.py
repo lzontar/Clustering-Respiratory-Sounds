@@ -275,11 +275,11 @@ for N_CLUSTERS, CLASS, LABELS in zip(nClusterList, classList, labelList):
                     clusterCounts[i][j] = clusterCounts[i][j] / clusterSum
 
             clusterLabels = [f"Cluster {i} ({clusterLabelsWSizes[str(i)]})" for i in set(clusterPredict[name])]
-            plt.figure(figsize=(24, 12))
-            ax = sns.heatmap(clusterCounts, linewidth=0.5, vmin=0, vmax=1)
+            plt.figure(figsize=(27, 15))
+            ax = sns.heatmap(clusterCounts, linewidth=0.5, vmin=0, vmax=1, annot_kws={"fontsize": 26})
             ax.set_xticklabels(LABELS, rotation=30, fontsize=26)
             ax.set_yticklabels(clusterLabels, rotation=0, fontsize=26)
-            plt.title(f"Diagnosis distributions over clusters ({name}) - {scenarioName[ixScenario]}", fontsize=32)
+            plt.title(f"Diagnosis distributions over clusters ({name}) - {scenarioName[ixScenario]}", fontsize=40)
             plt.savefig(f'images/results/scenario{ixScenario}/cluster-heatmap/{filenamePrefix}-cluster-heatmap.png')
             plt.savefig(f'../IEEEtran/images/{filenamePrefix}-cluster-heatmap.png')
             plt.show()

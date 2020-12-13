@@ -1,7 +1,7 @@
 ----- Executing Gaussian Mixture Model ----- 
-: 0.07 seconds 
-Calinski-Harabasz Index: 594.279
-Silhouette Coefficient: 0.27237
+: 0.02 seconds 
+Calinski-Harabasz Index: 578.807
+Silhouette Coefficient: 0.26667
 Cluster sizes: 
-1:  1502 (76.24%)
-0:   468 (23.76%)
+0:  1502 (76.24%)
+1:   468 (23.76%)
